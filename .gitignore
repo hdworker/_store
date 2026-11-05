@@ -1,0 +1,5 @@
+/reference/
+/baselines/
+/vendor/
+*.bak-*
+*.tmp

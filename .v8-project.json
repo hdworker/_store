@@ -1,0 +1,78 @@
+{
+  "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+  "databases": [
+    {
+      "id": "test1",
+      "name": "test1",
+      "type": "server",
+      "server": "servertest",
+      "ref": "test1",
+      "user": "ГришинСР",
+      "password": "бкк2021",
+      "aliases": [
+        "test1"
+      ]
+    },
+    {
+      "id": "test3",
+      "name": "test3",
+      "type": "server",
+      "server": "servertest",
+      "ref": "test3",
+      "user": "ГришинСР",
+      "password": "бкк2021",
+      "aliases": [
+        "test3"
+      ]
+    },
+    {
+      "id": "test5",
+      "name": "test5",
+      "type": "server",
+      "server": "servertest",
+      "ref": "test5",
+      "user": "ГришинСР",
+      "password": "бкк2021",
+      "aliases": [
+        "test5"
+      ]
+    },
+    {
+      "id": "test6",
+      "name": "test6",
+      "type": "server",
+      "server": "servertest",
+      "ref": "test6",
+      "user": "ГришинСР",
+      "password": "бкк2021",
+      "aliases": [
+        "test6"
+      ]
+    },
+    {
+      "id": "test6-",
+      "name": "test6-",
+      "type": "server",
+      "server": "servertest",
+      "ref": "test6-",
+      "user": "ГришинСР",
+      "password": "бкк2021",
+      "aliases": [
+        "test6-"
+      ]
+    },
+    {
+      "id": "test7-",
+      "name": "test7-",
+      "type": "server",
+      "server": "servertest",
+      "ref": "test7-",
+      "user": "ГришинСР",
+      "password": "бкк2021",
+      "aliases": [
+        "test7-"
+      ]
+    }
+  ],
+  "default": "test6"
+}

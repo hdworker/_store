@@ -1,0 +1,2026 @@
+{
+  "generated": "2026-11-05 18:22",
+  "store": "E:\\Grishin\\Code\\_store",
+  "projects": [
+    {
+      "project": "APM",
+      "path": "E:\\Grishin\\Code\\APM",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [
+        {
+          "name": "АРМОбработкаДокументов",
+          "src": "E:\\Grishin\\Code\\APM\\src\\cfe\\АРМОбработкаДокументов",
+          "version": "1.1.7"
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\APM\\АРМОбработкаДокументов.cfe",
+          "version": "",
+          "size": 66119,
+          "mtime": "2026-10-30 00:11"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\APM\\АРМОбработкаДокументов_1.0.0.cfe",
+          "version": "1.0.0",
+          "size": 23515,
+          "mtime": "2026-10-13 10:34"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\APM\\АРМОбработкаДокументов_1.0.1.cfe",
+          "version": "1.0.1",
+          "size": 23479,
+          "mtime": "2026-10-13 11:23"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\APM\\АРМОбработкаДокументов_master_1.1.0.cfe",
+          "version": "1.1.0",
+          "size": 45710,
+          "mtime": "2026-10-22 23:21"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\APM\\АРМОбработкаДокументов_master_1.1.1.cfe",
+          "version": "1.1.1",
+          "size": 63344,
+          "mtime": "2026-10-28 14:35"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\APM\\АРМОбработкаДокументов_master_1.1.3.cfe",
+          "version": "1.1.3",
+          "size": 65591,
+          "mtime": "2026-10-29 20:48"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\APM\\АРМОбработкаДокументов_master_1.1.4.cfe",
+          "version": "1.1.4",
+          "size": 65825,
+          "mtime": "2026-10-29 23:02"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\APM\\АРМОбработкаДокументов_master_1.1.5.cfe",
+          "version": "1.1.5",
+          "size": 66119,
+          "mtime": "2026-10-30 00:11"
+        }
+      ]
+    },
+    {
+      "project": "AnalyticsCFE",
+      "path": "E:\\Grishin\\Code\\AnalyticsCFE",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "configSrc": "src\\cffull",
+          "extensions": [
+            {
+              "name": "Аналитика",
+              "src": "src\\cfe\\Аналитика"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [
+        {
+          "name": "Аналитика",
+          "src": "E:\\Grishin\\Code\\AnalyticsCFE\\src\\cfe\\Аналитика",
+          "version": "1.3.0"
+        },
+        {
+          "name": "АгропромышленныйКомплексМодульДля1СERPИ1СКА2",
+          "src": "E:\\Grishin\\Code\\AnalyticsCFE\\src\\cffull",
+          "version": "2.5.17.219"
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\AnalyticsCFE\\ВыделениеАдресаИзСтруктуры.epf",
+          "version": "",
+          "size": 14683,
+          "mtime": "2026-02-02 12:51"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\AnalyticsCFE\\ВыделениеСубъектаИзАдреса.epf",
+          "version": "",
+          "size": 8623,
+          "mtime": "2025-10-22 17:05"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\AnalyticsCFE\\build\\Аналитика_local_naming_v1.1.0.cfe",
+          "version": "1.1.0",
+          "size": 48152,
+          "mtime": "2026-10-21 21:24"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\AnalyticsCFE\\build\\Аналитика_local_naming_v1.2.0.cfe",
+          "version": "1.2.0",
+          "size": 52229,
+          "mtime": "2026-10-22 18:42"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\AnalyticsCFE\\build\\Аналитика_local_naming_v1.2.1.cfe",
+          "version": "1.2.1",
+          "size": 52299,
+          "mtime": "2026-10-26 20:31"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\AnalyticsCFE\\build\\Аналитика_local_naming_v1.3.0.cfe",
+          "version": "1.3.0",
+          "size": 68671,
+          "mtime": "2026-10-30 18:14"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\AnalyticsCFE\\build\\Аналитика_v1.0.0.1.cfe",
+          "version": "1.0.0.1",
+          "size": 36003,
+          "mtime": "2026-10-16 15:12"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\AnalyticsCFE\\build\\Аналитика_v1.0.0.2.cfe",
+          "version": "1.0.0.2",
+          "size": 36009,
+          "mtime": "2026-10-17 23:55"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\AnalyticsCFE\\build\\Аналитика_v1.0.0.3.cfe",
+          "version": "1.0.0.3",
+          "size": 36004,
+          "mtime": "2026-10-19 17:41"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\AnalyticsCFE\\build\\Аналитика_v1.0.0.4.cfe",
+          "version": "1.0.0.4",
+          "size": 36519,
+          "mtime": "2026-10-20 15:34"
+        }
+      ]
+    },
+    {
+      "project": "Dossier-Kontragent",
+      "path": "E:\\Grishin\\Code\\Dossier-Kontragent",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "configSrc": "..\\Vedomost-XLSX\\src\\cffull",
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            },
+            {
+              "name": "ДосьеКонтрагента",
+              "src": "src\\cfe\\ДосьеКонтрагента"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [
+        {
+          "name": "ДосьеКонтрагента",
+          "src": "E:\\Grishin\\Code\\Dossier-Kontragent\\src\\cfe\\ДосьеКонтрагента",
+          "version": "1.0.0.6"
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\Dossier-Kontragent\\build\\ДосьеКонтрагента_v1.0.0.1.cfe",
+          "version": "1.0.0.1",
+          "size": 57117,
+          "mtime": "2026-10-23 12:35"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Dossier-Kontragent\\build\\ДосьеКонтрагента_v1.0.0.2.cfe",
+          "version": "1.0.0.2",
+          "size": 56609,
+          "mtime": "2026-10-23 14:11"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Dossier-Kontragent\\build\\ДосьеКонтрагента_v1.0.0.3.cfe",
+          "version": "1.0.0.3",
+          "size": 58164,
+          "mtime": "2026-10-26 13:24"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Dossier-Kontragent\\build\\ДосьеКонтрагента_v1.0.0.3_test6.cfe",
+          "version": "",
+          "size": 58164,
+          "mtime": "2026-10-26 13:24"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Dossier-Kontragent\\build\\ДосьеКонтрагента_v1.0.0.4.cfe",
+          "version": "1.0.0.4",
+          "size": 58162,
+          "mtime": "2026-10-26 13:51"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Dossier-Kontragent\\build\\ДосьеКонтрагента_v1.0.0.5.cfe",
+          "version": "1.0.0.5",
+          "size": 58901,
+          "mtime": "2026-10-26 14:35"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Dossier-Kontragent\\build\\ДосьеКонтрагента_v1.0.0.6.cfe",
+          "version": "1.0.0.6",
+          "size": 59983,
+          "mtime": "2026-10-27 14:00"
+        }
+      ]
+    },
+    {
+      "project": "Nomenklatura_Spr",
+      "path": "E:\\Grishin\\Code\\Nomenklatura_Spr",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            },
+            {
+              "name": "БКК_УправлениеУпаковками",
+              "src": "src\\cfe\\БКК_УправлениеУпаковками"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf",
+          "extensions": [
+            {
+              "name": "БКК_УправлениеУпаковками",
+              "src": "src\\cfe\\БКК_УправлениеУпаковками"
+            }
+          ]
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [
+        {
+          "name": "БКК_УправлениеУпаковками",
+          "src": "E:\\Grishin\\Code\\Nomenklatura_Spr\\src\\cfe\\БКК_УправлениеУпаковками",
+          "version": "1.0.0"
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\Nomenklatura_Spr\\build\\БКК_УправлениеУпаковками_v.1.0.0.cfe",
+          "version": "",
+          "size": 9635,
+          "mtime": "2026-10-27 20:56"
+        }
+      ]
+    },
+    {
+      "project": "Oborachivaemost-zapasov",
+      "path": "E:\\Grishin\\Code\\Oborachivaemost-zapasov",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            }
+          ]
+        }
+      ],
+      "extensions": [],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\Oborachivaemost-zapasov\\build\\РасчетОборачиваемостиЗапасов_Простая.epf",
+          "version": "",
+          "size": 10151,
+          "mtime": "2026-10-14 12:12"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Oborachivaemost-zapasov\\build\\РасчетОборачиваемостиЗапасов_Простая_v1.0.0.epf",
+          "version": "1.0.0",
+          "size": 10151,
+          "mtime": "2026-10-14 12:12"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Oborachivaemost-zapasov\\build\\РасчетОборачиваемостиЗапасов_СКД_v1.0.1.epf",
+          "version": "1.0.1",
+          "size": 13539,
+          "mtime": "2026-10-14 12:17"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Oborachivaemost-zapasov\\build\\РасчетОборачиваемостиЗапасов_СКД_v1.0.2.epf",
+          "version": "1.0.2",
+          "size": 13653,
+          "mtime": "2026-10-14 15:38"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Oborachivaemost-zapasov\\build\\РасчетОборачиваемостиЗапасов_СКД_v1.0.3.epf",
+          "version": "1.0.3",
+          "size": 13710,
+          "mtime": "2026-10-14 16:55"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Oborachivaemost-zapasov\\build\\РасчетОборачиваемостиЗапасов_СКД_v1.1.0.epf",
+          "version": "1.1.0",
+          "size": 14282,
+          "mtime": "2026-10-14 19:35"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Oborachivaemost-zapasov\\build\\РасчетОборачиваемостиЗапасов_СКД_v1.1.1.epf",
+          "version": "1.1.1",
+          "size": 14345,
+          "mtime": "2026-10-14 20:15"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Oborachivaemost-zapasov\\build\\РасчетОборачиваемостиЗапасов_СКД_v1.2.0.epf",
+          "version": "1.2.0",
+          "size": 15274,
+          "mtime": "2026-10-16 15:15"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Oborachivaemost-zapasov\\build\\РасчетОборачиваемостиЗапасов_СКД_v1.3.0.epf",
+          "version": "1.3.0",
+          "size": 16816,
+          "mtime": "2026-10-19 13:34"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Oborachivaemost-zapasov\\build\\РасчетОборачиваемостиЗапасов_СКД_v1.3.1.epf",
+          "version": "1.3.1",
+          "size": 16852,
+          "mtime": "2026-10-19 16:24"
+        }
+      ]
+    },
+    {
+      "project": "PlanFact-Etiketirovki",
+      "path": "E:\\Grishin\\Code\\PlanFact-Etiketirovki",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [],
+      "artifacts": []
+    },
+    {
+      "project": "PlanProdazh",
+      "path": "E:\\Grishin\\Code\\PlanProdazh",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "configSrc": "src\\cffull",
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            },
+            {
+              "name": "ЗагрузкаОстатковXLSX",
+              "src": "src\\cfe\\ЗагрузкаОстатковXLSX"
+            }
+          ]
+        }
+      ],
+      "extensions": [],
+      "artifacts": []
+    },
+    {
+      "project": "Proizvodstvenniy-Otchet",
+      "path": "E:\\Grishin\\Code\\Proizvodstvenniy-Otchet",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\Proizvodstvenniy-Otchet\\12.07.2024_ПроизводственныйОтчетНовый.erf",
+          "version": "",
+          "size": 13989,
+          "mtime": "2026-10-22 11:20"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Proizvodstvenniy-Otchet\\build\\ПроизводственныйОтчетНовый_fixed.erf",
+          "version": "",
+          "size": 14134,
+          "mtime": "2026-10-28 16:56"
+        }
+      ]
+    },
+    {
+      "project": "Schet-fact_poluchenniy",
+      "path": "E:\\Grishin\\Code\\Schet-fact_poluchenniy",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            }
+          ]
+        }
+      ],
+      "extensions": [
+        {
+          "name": "БКК_Дополнение",
+          "src": "E:\\Grishin\\Code\\Schet-fact_poluchenniy\\src\\cfe\\БКК_Дополнение",
+          "version": ""
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\Schet-fact_poluchenniy\\БКК_Дополнение.cfe",
+          "version": "",
+          "size": 646927,
+          "mtime": "2026-10-07 18:34"
+        }
+      ]
+    },
+    {
+      "project": "Startup1C",
+      "path": "E:\\Grishin\\Code\\Startup1C",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [
+        {
+          "name": "ЗаголовокОкна",
+          "src": "E:\\Grishin\\Code\\Startup1C\\src\\cfe\\ЗаголовокОкна",
+          "version": "1.0.0"
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "project": "Svertka-Bazy",
+      "path": "E:\\Grishin\\Code\\Svertka-Bazy",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\Svertka-Bazy\\ПодготовкаДанныхДляLLM-v.1.0.1.cfe",
+          "version": "",
+          "size": 36468,
+          "mtime": "2026-10-18 10:52"
+        }
+      ]
+    },
+    {
+      "project": "Tirazhi",
+      "path": "E:\\Grishin\\Code\\Tirazhi",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            },
+            {
+              "name": "Тиражи",
+              "src": "src\\cfe\\Тиражи"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [
+        {
+          "name": "Тиражи",
+          "src": "E:\\Grishin\\Code\\Tirazhi\\src\\cfe\\Тиражи",
+          "version": "0.2.0"
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\Tirazhi\\Тиражи_v0.1.0.cfe",
+          "version": "0.1.0",
+          "size": 187080,
+          "mtime": "2026-10-29 16:35"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Tirazhi\\Тиражи_v0.1.1.cfe",
+          "version": "0.1.1",
+          "size": 192660,
+          "mtime": "2026-10-30 00:32"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Tirazhi\\Тиражи_v0.2.0.cfe",
+          "version": "0.2.0",
+          "size": 201495,
+          "mtime": "2026-11-02 12:55"
+        }
+      ]
+    },
+    {
+      "project": "Vedomost-XLSX",
+      "path": "E:\\Grishin\\Code\\Vedomost-XLSX",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [
+        {
+          "name": "ЗагрузкаОстатковXLSX",
+          "src": "E:\\Grishin\\Code\\Vedomost-XLSX\\src\\cfe\\ЗагрузкаОстатковXLSX",
+          "version": "1.1.1"
+        },
+        {
+          "name": "АгропромышленныйКомплексМодульДля1СERPИ1СКА2",
+          "src": "E:\\Grishin\\Code\\Vedomost-XLSX\\src\\cffull",
+          "version": "2.5.17.219"
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.0.cfe",
+          "version": "1.0.0",
+          "size": 55069,
+          "mtime": "2026-10-13 14:09"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.1.cfe",
+          "version": "1.0.1",
+          "size": 55098,
+          "mtime": "2026-10-13 14:40"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.10.cfe",
+          "version": "1.0.10",
+          "size": 66401,
+          "mtime": "2026-10-23 15:30"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.11.cfe",
+          "version": "1.0.11",
+          "size": 66411,
+          "mtime": "2026-10-23 15:53"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.2.cfe",
+          "version": "1.0.2",
+          "size": 55650,
+          "mtime": "2026-10-16 14:25"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.3.cfe",
+          "version": "1.0.3",
+          "size": 61301,
+          "mtime": "2026-10-20 12:57"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.4.cfe",
+          "version": "1.0.4",
+          "size": 64515,
+          "mtime": "2026-10-21 11:16"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.5.cfe",
+          "version": "1.0.5",
+          "size": 65632,
+          "mtime": "2026-10-22 15:32"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.6.cfe",
+          "version": "1.0.6",
+          "size": 65636,
+          "mtime": "2026-10-22 16:22"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.7.cfe",
+          "version": "1.0.7",
+          "size": 65712,
+          "mtime": "2026-10-22 16:58"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.8.cfe",
+          "version": "1.0.8",
+          "size": 65946,
+          "mtime": "2026-10-23 00:25"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.0.9.cfe",
+          "version": "1.0.9",
+          "size": 66071,
+          "mtime": "2026-10-23 12:22"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.1.0.cfe",
+          "version": "1.1.0",
+          "size": 67539,
+          "mtime": "2026-10-27 11:20"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Vedomost-XLSX\\ЗагрузкаОстатковXLSX_1.1.1.cfe",
+          "version": "1.1.1",
+          "size": 68136,
+          "mtime": "2026-10-27 14:46"
+        }
+      ]
+    },
+    {
+      "project": "Vereshagina_Lenta",
+      "path": "E:\\Grishin\\Code\\Vereshagina_Lenta",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОобработкаДокументов"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "копия рабочей базы; для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "копия рабочей базы; для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "копия рабочей базы; для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test6-",
+          "name": "АРМ (test6-)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6-",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test6-",
+            "test6copy"
+          ],
+          "purpose": "копия рабочей базы"
+        },
+        {
+          "id": "test7-",
+          "name": "АРМ (test7-)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test7-",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test7-",
+            "test7copy"
+          ],
+          "purpose": "копия рабочей базы"
+        }
+      ],
+      "extensions": [],
+      "artifacts": []
+    },
+    {
+      "project": "Vvedeno",
+      "path": "E:\\Grishin\\Code\\Vvedeno",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [
+        {
+          "name": "АгропромышленныйКомплексМодульДля1СERPИ1СКА2",
+          "src": "E:\\Grishin\\Code\\Vvedeno\\src\\cf",
+          "version": "2.5.12.270"
+        },
+        {
+          "name": "OpenIntegrations",
+          "src": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\OpenIntegrations",
+          "version": "1.11.1"
+        },
+        {
+          "name": "БКК_Дополнение",
+          "src": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\БКК_Дополнение",
+          "version": "1.1.3"
+        },
+        {
+          "name": "БКК_Дополнение",
+          "src": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\БКК_Дополнение_test5",
+          "version": "1.1.3"
+        },
+        {
+          "name": "БКК_УправлениеУпаковками",
+          "src": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\БКК_УправлениеУпаковками",
+          "version": "1.0.0"
+        },
+        {
+          "name": "ДосьеКонтрагента",
+          "src": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\ДосьеКонтрагента",
+          "version": "1.0.0.3"
+        },
+        {
+          "name": "ЗаголовокОкна",
+          "src": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\ЗаголовокОкна",
+          "version": "1.0.0"
+        },
+        {
+          "name": "ЗаказКлиента_Аналитика_таб",
+          "src": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\ЗаказКлиента_Аналитика_таб",
+          "version": "1.1.0"
+        },
+        {
+          "name": "РаботаСGoogleAPI",
+          "src": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\РаботаСGoogleAPI",
+          "version": "1.0.2"
+        },
+        {
+          "name": "Тиражи",
+          "src": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\Тиражи",
+          "version": "0.1.0"
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "project": "ZakazClienta",
+      "path": "E:\\Grishin\\Code\\ZakazClienta",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "configSrc": "src\\cffull",
+          "extensions": [
+            {
+              "name": "ЗаказКлиента_Аналитика_таб",
+              "src": "src\\cfe\\ЗаказКлиента_Аналитика_таб"
+            },
+            {
+              "name": "БКК_Дополнение",
+              "src": "src\\cfe\\БКК_Дополнение"
+            },
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            },
+            {
+              "name": "ЗагрузкаОстатковXLSX",
+              "src": "src\\cfe\\ЗагрузкаОстатковXLSX"
+            }
+          ]
+        }
+      ],
+      "extensions": [
+        {
+          "name": "БКК_Дополнение",
+          "src": "E:\\Grishin\\Code\\ZakazClienta\\src\\cfe\\БКК_Дополнение",
+          "version": "1.1.2"
+        },
+        {
+          "name": "ЗаказКлиента_Аналитика_таб",
+          "src": "E:\\Grishin\\Code\\ZakazClienta\\src\\cfe\\ЗаказКлиента_Аналитика_таб",
+          "version": "1.2.0"
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\БКК_Дополнение_ZakazClienta_v.1.0.0.cfe",
+          "version": "",
+          "size": 665971,
+          "mtime": "2026-10-20 13:55"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\БКК_Дополнение_ZakazClienta_v.1.1.0.cfe",
+          "version": "",
+          "size": 666073,
+          "mtime": "2026-10-22 17:29"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\БКК_Дополнение_ZakazClienta_v.1.1.1.cfe",
+          "version": "",
+          "size": 666832,
+          "mtime": "2026-10-22 21:27"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\БКК_Дополнение_ZakazClienta_v.1.1.2.cfe",
+          "version": "",
+          "size": 658466,
+          "mtime": "2026-10-27 11:31"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\ЗаказКлиента_Аналитика_таб_v.1.0.0.cfe",
+          "version": "",
+          "size": 65036,
+          "mtime": "2026-10-27 19:04"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\ЗаказКлиента_Аналитика_таб_v.1.0.1.cfe",
+          "version": "",
+          "size": 65009,
+          "mtime": "2026-10-27 22:07"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\ЗаказКлиента_Аналитика_таб_v.1.0.2.cfe",
+          "version": "",
+          "size": 65052,
+          "mtime": "2026-10-29 00:56"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\ЗаказКлиента_Аналитика_таб_v.1.0.3.cfe",
+          "version": "",
+          "size": 65046,
+          "mtime": "2026-10-29 13:35"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\ЗаказКлиента_Аналитика_таб_v.1.0.4.cfe",
+          "version": "",
+          "size": 65067,
+          "mtime": "2026-10-29 14:32"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\ЗаказКлиента_Аналитика_таб_v.1.0.5.cfe",
+          "version": "",
+          "size": 65085,
+          "mtime": "2026-10-29 22:46"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\ЗаказКлиента_Аналитика_таб_v.1.0.6.cfe",
+          "version": "",
+          "size": 64530,
+          "mtime": "2026-10-30 14:49"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\ЗаказКлиента_Аналитика_таб_v.1.1.0.cfe",
+          "version": "",
+          "size": 68329,
+          "mtime": "2026-10-30 16:06"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\ЗаказКлиента_Аналитика_таб_v.1.1.1.cfe",
+          "version": "",
+          "size": 68333,
+          "mtime": "2026-11-02 17:56"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\ZakazClienta\\ЗаказКлиента_Аналитика_таб_v.1.2.0.cfe",
+          "version": "",
+          "size": 69056,
+          "mtime": "2026-11-03 13:02"
+        }
+      ]
+    },
+    {
+      "project": "Zhurnal-Registracii",
+      "path": "E:\\Grishin\\Code\\Zhurnal-Registracii",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "configSrc": "..\\Vedomost-XLSX\\src\\cffull",
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            },
+            {
+              "name": "ДосьеКонтрагента",
+              "src": "src\\cfe\\ДосьеКонтрагента"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\Zhurnal-Registracii\\build\\ВыгрузкаЖурналаРегистрации.epf",
+          "version": "",
+          "size": 12395,
+          "mtime": "2026-10-23 16:17"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Zhurnal-Registracii\\build\\ВыгрузкаЖурналаРегистрации_v2.epf",
+          "version": "",
+          "size": 18668,
+          "mtime": "2026-10-27 10:22"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Zhurnal-Registracii\\build\\ВыгрузкаЖурналаРегистрации_v3.epf",
+          "version": "",
+          "size": 18668,
+          "mtime": "2026-10-27 10:35"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Zhurnal-Registracii\\build\\ВыгрузкаЖурналаРегистрации_v4.epf",
+          "version": "",
+          "size": 23718,
+          "mtime": "2026-10-30 11:41"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\Zhurnal-Registracii\\build\\ВыгрузкаЖурналаРегистрации_v5.epf",
+          "version": "",
+          "size": 24174,
+          "mtime": "2026-11-04 17:24"
+        }
+      ]
+    },
+    {
+      "project": "kontur-edi",
+      "path": "E:\\Grishin\\Code\\kontur-edi",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "test6",
+          "name": "АРМ (test6)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test6",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "apm",
+            "арм"
+          ],
+          "extensions": [
+            {
+              "name": "АРМОбработкаДокументов",
+              "src": "src\\cfe\\АРМОбработкаДокументов"
+            }
+          ]
+        },
+        {
+          "id": "test1",
+          "name": "АРМ (test1)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test1",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test1"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test3",
+          "name": "АРМ (test3)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test3",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test3"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        },
+        {
+          "id": "test5",
+          "name": "АРМ (test5)",
+          "type": "server",
+          "server": "servertest",
+          "ref": "test5",
+          "user": "ГришинСР",
+          "password": "бкк2021",
+          "aliases": [
+            "test5"
+          ],
+          "purpose": "для сборки cfe, epf/erf"
+        }
+      ],
+      "extensions": [
+        {
+          "name": "КонтурДиадок",
+          "src": "E:\\Grishin\\Code\\kontur-edi\\src\\Расширение_КонтурДиадок",
+          "version": "4.69.1"
+        },
+        {
+          "name": "КонтурМаркировкаОСУ",
+          "src": "E:\\Grishin\\Code\\kontur-edi\\src\\Расширение_КонтурМаркировкаОСУ",
+          "version": "0.4.1"
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "E:\\Grishin\\Code\\kontur-edi\\diadoc_4_62_0.epf",
+          "version": "",
+          "size": 24093213,
+          "mtime": "2026-09-28 11:52"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\kontur-edi\\Контур.Маркировка (объемно-сортовой учет).epf",
+          "version": "",
+          "size": 167891,
+          "mtime": "2026-09-28 11:46"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\kontur-edi\\build\\ВключитьКодыОСУ.epf",
+          "version": "",
+          "size": 8869,
+          "mtime": "2026-09-22 15:53"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\kontur-edi\\build\\ДиагностикаАдресаКИ.epf",
+          "version": "",
+          "size": 9009,
+          "mtime": "2026-09-28 23:35"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\kontur-edi\\build\\КонтурДиадок_КодыОСУ_ПМ.epf",
+          "version": "",
+          "size": 8854,
+          "mtime": "2026-10-09 15:16"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\kontur-edi\\build\\КонтурДиадок_КодыОСУ_ПМ_1.0.5.epf",
+          "version": "1.0.5",
+          "size": 9593,
+          "mtime": "2026-10-09 15:33"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\kontur-edi\\build\\КонтурДиадок_КодыОСУ_ПМ_1.0.6.epf",
+          "version": "1.0.6",
+          "size": 9064,
+          "mtime": "2026-10-09 15:36"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\kontur-edi\\build\\КонтурДиадок_КодыОСУ_ПМ_1.0.7.epf",
+          "version": "1.0.7",
+          "size": 9512,
+          "mtime": "2026-10-09 15:42"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\kontur-edi\\build\\КонтурДиадок_КодыОСУ_ПМ_1.0.8.epf",
+          "version": "1.0.8",
+          "size": 8686,
+          "mtime": "2026-10-09 15:56"
+        },
+        {
+          "file": "E:\\Grishin\\Code\\kontur-edi\\build\\КонтурДиадок_КодыОСУ_ПМ_1.0.9.epf",
+          "version": "1.0.9",
+          "size": 9362,
+          "mtime": "2026-11-05 13:37"
+        }
+      ]
+    },
+    {
+      "project": "opencode",
+      "path": "E:\\Grishin\\Code\\opencode",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "dev",
+          "name": "Инструменты (пустая база, только платформа)",
+          "type": "file",
+          "path": "C:\\Users\\Grishin1c\\Documents\\InfoBase",
+          "aliases": [
+            "tools",
+            "инструменты",
+            "infobase"
+          ]
+        }
+      ],
+      "extensions": [],
+      "artifacts": []
+    },
+    {
+      "project": "skb_kontur",
+      "path": "E:\\Grishin\\Code\\skb_kontur",
+      "v8path": "C:\\Program Files\\1cv8\\8.3.27.2214\\bin",
+      "databases": [
+        {
+          "id": "dev",
+          "name": "Инструменты (пустая база, только платформа)",
+          "type": "file",
+          "path": "C:\\Users\\Grishin1c\\Documents\\InfoBase",
+          "aliases": [
+            "tools",
+            "инструменты",
+            "infobase"
+          ]
+        }
+      ],
+      "extensions": [],
+      "artifacts": []
+    }
+  ],
+  "vendor": [
+    {
+      "kind": "extension",
+      "file": "KonturLogist_UT_11_5.cfe",
+      "path": "E:\\Grishin\\Code\\_store\\vendor/extensions\\KonturLogist_UT_11_5.cfe"
+    },
+    {
+      "kind": "extension",
+      "file": "OpenIntegrations.cfe",
+      "path": "E:\\Grishin\\Code\\_store\\vendor/extensions\\OpenIntegrations.cfe"
+    },
+    {
+      "kind": "extension",
+      "file": "АРМОбработкаДокументов.cfe",
+      "path": "E:\\Grishin\\Code\\_store\\vendor/extensions\\АРМОбработкаДокументов.cfe"
+    },
+    {
+      "kind": "extension",
+      "file": "АстралДокс.cfe",
+      "path": "E:\\Grishin\\Code\\_store\\vendor/extensions\\АстралДокс.cfe"
+    },
+    {
+      "kind": "extension",
+      "file": "БКК_Дополнение.cfe",
+      "path": "E:\\Grishin\\Code\\_store\\vendor/extensions\\БКК_Дополнение.cfe"
+    },
+    {
+      "kind": "extension",
+      "file": "КонтурИнтеграция.cfe",
+      "path": "E:\\Grishin\\Code\\_store\\vendor/extensions\\КонтурИнтеграция.cfe"
+    },
+    {
+      "kind": "extension",
+      "file": "РаботаСGoogleAPI.cfe",
+      "path": "E:\\Grishin\\Code\\_store\\vendor/extensions\\РаботаСGoogleAPI.cfe"
+    },
+    {
+      "kind": "extension",
+      "file": "РасширениеКонтурЛогистика.cfe",
+      "path": "E:\\Grishin\\Code\\_store\\vendor/extensions\\РасширениеКонтурЛогистика.cfe"
+    }
+  ],
+  "references": [
+    {
+      "folder": "АгропромышленныйКомплексМодульДля1СERPИ1СКА2_2.5.17.219",
+      "path": "E:\\Grishin\\Code\\_store\\reference\\АгропромышленныйКомплексМодульДля1СERPИ1СКА2_2.5.17.219",
+      "size_mb": 10358.1
+    }
+  ],
+  "settings": "E:\\Grishin\\Code\\_store\\settings\\project.json",
+  "reference_extensions": [
+    {
+      "extension": "АРМОбработкаДокументов",
+      "version": "1.1.7",
+      "source": "E:\\Grishin\\Code\\APM\\src\\cfe\\АРМОбработкаДокументов",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\АРМОбработкаДокументов\\1.1.7",
+      "project": "APM"
+    },
+    {
+      "extension": "Аналитика",
+      "version": "1.3.0",
+      "source": "E:\\Grishin\\Code\\AnalyticsCFE\\src\\cfe\\Аналитика",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\Аналитика\\1.3.0",
+      "project": "AnalyticsCFE"
+    },
+    {
+      "extension": "ДосьеКонтрагента",
+      "version": "1.0.0.6",
+      "source": "E:\\Grishin\\Code\\Dossier-Kontragent\\src\\cfe\\ДосьеКонтрагента",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ДосьеКонтрагента\\1.0.0.6",
+      "project": "Dossier-Kontragent"
+    },
+    {
+      "extension": "БКК_УправлениеУпаковками",
+      "version": "1.0.0",
+      "source": "E:\\Grishin\\Code\\Nomenklatura_Spr\\src\\cfe\\БКК_УправлениеУпаковками",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_УправлениеУпаковками\\1.0.0",
+      "project": "Nomenklatura_Spr"
+    },
+    {
+      "extension": "БКК_Дополнение",
+      "version": "",
+      "source": "E:\\Grishin\\Code\\Schet-fact_poluchenniy\\src\\cfe\\БКК_Дополнение",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_Дополнение\\unknown",
+      "project": "Schet-fact_poluchenniy"
+    },
+    {
+      "extension": "ЗаголовокОкна",
+      "version": "1.0.0",
+      "source": "E:\\Grishin\\Code\\Startup1C\\src\\cfe\\ЗаголовокОкна",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ЗаголовокОкна\\1.0.0",
+      "project": "Startup1C"
+    },
+    {
+      "extension": "Тиражи",
+      "version": "0.2.0",
+      "source": "E:\\Grishin\\Code\\Tirazhi\\src\\cfe\\Тиражи",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\Тиражи\\0.2.0",
+      "project": "Tirazhi"
+    },
+    {
+      "extension": "ЗагрузкаОстатковXLSX",
+      "version": "1.1.1",
+      "source": "E:\\Grishin\\Code\\Vedomost-XLSX\\src\\cfe\\ЗагрузкаОстатковXLSX",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ЗагрузкаОстатковXLSX\\1.1.1",
+      "project": "Vedomost-XLSX"
+    },
+    {
+      "extension": "OpenIntegrations",
+      "version": "1.11.1",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\OpenIntegrations",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\OpenIntegrations\\1.11.1",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "БКК_Дополнение",
+      "version": "1.1.3",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\БКК_Дополнение",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_Дополнение\\1.1.3",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "БКК_Дополнение",
+      "version": "1.1.3",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\БКК_Дополнение_test5",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_Дополнение\\1.1.3_Vvedeno",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "БКК_УправлениеУпаковками",
+      "version": "1.0.0",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\БКК_УправлениеУпаковками",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_УправлениеУпаковками\\1.0.0_Vvedeno",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "ДосьеКонтрагента",
+      "version": "1.0.0.3",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\ДосьеКонтрагента",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ДосьеКонтрагента\\1.0.0.3",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "ЗаголовокОкна",
+      "version": "1.0.0",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\ЗаголовокОкна",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ЗаголовокОкна\\1.0.0_Vvedeno",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "ЗаказКлиента_Аналитика_таб",
+      "version": "1.1.0",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\ЗаказКлиента_Аналитика_таб",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ЗаказКлиента_Аналитика_таб\\1.1.0",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "РаботаСGoogleAPI",
+      "version": "1.0.2",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\РаботаСGoogleAPI",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\РаботаСGoogleAPI\\1.0.2",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "Тиражи",
+      "version": "0.1.0",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\Тиражи",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\Тиражи\\0.1.0",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "БКК_Дополнение",
+      "version": "1.1.2",
+      "source": "E:\\Grishin\\Code\\ZakazClienta\\src\\cfe\\БКК_Дополнение",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_Дополнение\\1.1.2",
+      "project": "ZakazClienta"
+    },
+    {
+      "extension": "ЗаказКлиента_Аналитика_таб",
+      "version": "1.2.0",
+      "source": "E:\\Grishin\\Code\\ZakazClienta\\src\\cfe\\ЗаказКлиента_Аналитика_таб",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ЗаказКлиента_Аналитика_таб\\1.2.0",
+      "project": "ZakazClienta"
+    },
+    {
+      "extension": "КонтурДиадок",
+      "version": "4.69.1",
+      "source": "E:\\Grishin\\Code\\kontur-edi\\src\\Расширение_КонтурДиадок",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\КонтурДиадок\\4.69.1",
+      "project": "kontur-edi"
+    },
+    {
+      "extension": "КонтурМаркировкаОСУ",
+      "version": "0.4.1",
+      "source": "E:\\Grishin\\Code\\kontur-edi\\src\\Расширение_КонтурМаркировкаОСУ",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\КонтурМаркировкаОСУ\\0.4.1",
+      "project": "kontur-edi"
+    }
+  ]
+}

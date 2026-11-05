@@ -1,0 +1,175 @@
+{
+  "generated": "2026-11-06 00:25",
+  "note": "Генерируется store-manifest.py; reference-дампы в git не хранятся",
+  "references": [
+    {
+      "folder": "extensions",
+      "name": "OpenIntegrations",
+      "version": "1.11.1",
+      "path": "E:\\Grishin\\Code\\_store\\reference\\extensions",
+      "files": 9736,
+      "size_mb": 238.8,
+      "config_md5": "d11ec6b652b43ac48d8eb49e6917b45c",
+      "mtime": "2026-11-05 18:22"
+    },
+    {
+      "folder": "АгропромышленныйКомплексМодульДля1СERPИ1СКА2_2.5.17.219",
+      "name": "АгропромышленныйКомплексМодульДля1СERPИ1СКА2",
+      "version": "2.5.17.219",
+      "path": "E:\\Grishin\\Code\\_store\\reference\\АгропромышленныйКомплексМодульДля1СERPИ1СКА2_2.5.17.219",
+      "files": 127623,
+      "size_mb": 10358.1,
+      "config_md5": "5253bfb8c48daf636038cabd085874da",
+      "mtime": "2026-10-28 09:40"
+    }
+  ],
+  "extensions": [
+    {
+      "extension": "АРМОбработкаДокументов",
+      "version": "1.1.7",
+      "source": "E:\\Grishin\\Code\\APM\\src\\cfe\\АРМОбработкаДокументов",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\АРМОбработкаДокументов\\1.1.7",
+      "project": "APM"
+    },
+    {
+      "extension": "Аналитика",
+      "version": "1.3.0",
+      "source": "E:\\Grishin\\Code\\AnalyticsCFE\\src\\cfe\\Аналитика",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\Аналитика\\1.3.0",
+      "project": "AnalyticsCFE"
+    },
+    {
+      "extension": "ДосьеКонтрагента",
+      "version": "1.0.0.6",
+      "source": "E:\\Grishin\\Code\\Dossier-Kontragent\\src\\cfe\\ДосьеКонтрагента",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ДосьеКонтрагента\\1.0.0.6",
+      "project": "Dossier-Kontragent"
+    },
+    {
+      "extension": "БКК_УправлениеУпаковками",
+      "version": "1.0.0",
+      "source": "E:\\Grishin\\Code\\Nomenklatura_Spr\\src\\cfe\\БКК_УправлениеУпаковками",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_УправлениеУпаковками\\1.0.0",
+      "project": "Nomenklatura_Spr"
+    },
+    {
+      "extension": "БКК_Дополнение",
+      "version": "",
+      "source": "E:\\Grishin\\Code\\Schet-fact_poluchenniy\\src\\cfe\\БКК_Дополнение",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_Дополнение\\unknown",
+      "project": "Schet-fact_poluchenniy"
+    },
+    {
+      "extension": "ЗаголовокОкна",
+      "version": "1.0.0",
+      "source": "E:\\Grishin\\Code\\Startup1C\\src\\cfe\\ЗаголовокОкна",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ЗаголовокОкна\\1.0.0",
+      "project": "Startup1C"
+    },
+    {
+      "extension": "Тиражи",
+      "version": "0.2.0",
+      "source": "E:\\Grishin\\Code\\Tirazhi\\src\\cfe\\Тиражи",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\Тиражи\\0.2.0",
+      "project": "Tirazhi"
+    },
+    {
+      "extension": "ЗагрузкаОстатковXLSX",
+      "version": "1.1.1",
+      "source": "E:\\Grishin\\Code\\Vedomost-XLSX\\src\\cfe\\ЗагрузкаОстатковXLSX",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ЗагрузкаОстатковXLSX\\1.1.1",
+      "project": "Vedomost-XLSX"
+    },
+    {
+      "extension": "OpenIntegrations",
+      "version": "1.11.1",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\OpenIntegrations",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\OpenIntegrations\\1.11.1",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "БКК_Дополнение",
+      "version": "1.1.3",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\БКК_Дополнение",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_Дополнение\\1.1.3",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "БКК_Дополнение",
+      "version": "1.1.3",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\БКК_Дополнение_test5",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_Дополнение\\1.1.3_Vvedeno",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "БКК_УправлениеУпаковками",
+      "version": "1.0.0",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\БКК_УправлениеУпаковками",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_УправлениеУпаковками\\1.0.0_Vvedeno",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "ДосьеКонтрагента",
+      "version": "1.0.0.3",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\ДосьеКонтрагента",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ДосьеКонтрагента\\1.0.0.3",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "ЗаголовокОкна",
+      "version": "1.0.0",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\ЗаголовокОкна",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ЗаголовокОкна\\1.0.0_Vvedeno",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "ЗаказКлиента_Аналитика_таб",
+      "version": "1.1.0",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\ЗаказКлиента_Аналитика_таб",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ЗаказКлиента_Аналитика_таб\\1.1.0",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "РаботаСGoogleAPI",
+      "version": "1.0.2",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\РаботаСGoogleAPI",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\РаботаСGoogleAPI\\1.0.2",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "Тиражи",
+      "version": "0.1.0",
+      "source": "E:\\Grishin\\Code\\Vvedeno\\src\\extensions\\Тиражи",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\Тиражи\\0.1.0",
+      "project": "Vvedeno"
+    },
+    {
+      "extension": "БКК_Дополнение",
+      "version": "1.1.2",
+      "source": "E:\\Grishin\\Code\\ZakazClienta\\src\\cfe\\БКК_Дополнение",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\БКК_Дополнение\\1.1.2",
+      "project": "ZakazClienta"
+    },
+    {
+      "extension": "ЗаказКлиента_Аналитика_таб",
+      "version": "1.2.0",
+      "source": "E:\\Grishin\\Code\\ZakazClienta\\src\\cfe\\ЗаказКлиента_Аналитика_таб",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\ЗаказКлиента_Аналитика_таб\\1.2.0",
+      "project": "ZakazClienta"
+    },
+    {
+      "extension": "КонтурДиадок",
+      "version": "4.69.1",
+      "source": "E:\\Grishin\\Code\\kontur-edi\\src\\Расширение_КонтурДиадок",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\КонтурДиадок\\4.69.1",
+      "project": "kontur-edi"
+    },
+    {
+      "extension": "КонтурМаркировкаОСУ",
+      "version": "0.4.1",
+      "source": "E:\\Grishin\\Code\\kontur-edi\\src\\Расширение_КонтурМаркировкаОСУ",
+      "snapshot": "E:\\Grishin\\Code\\_store\\reference\\extensions\\КонтурМаркировкаОСУ\\0.4.1",
+      "project": "kontur-edi"
+    }
+  ]
+}
