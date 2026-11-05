@@ -1,29 +1,19 @@
 {
-  "generated": "2026-11-06 00:25",
-  "note": "Генерируется store-manifest.py; reference-дампы в git не хранятся",
-  "references": [
-    {
-      "folder": "extensions",
-      "name": "OpenIntegrations",
-      "version": "1.11.1",
-      "path": "E:\\Grishin\\Code\\_store\\reference\\extensions",
-      "files": 9736,
-      "size_mb": 238.8,
-      "config_md5": "d11ec6b652b43ac48d8eb49e6917b45c",
-      "mtime": "2026-11-05 18:22"
-    },
+  "generated": "2026-11-06 00:55",
+  "note": "Генерируется store-manifest.py; дампы в git не хранятся",
+  "config_references": [
     {
       "folder": "АгропромышленныйКомплексМодульДля1СERPИ1СКА2_2.5.17.219",
       "name": "АгропромышленныйКомплексМодульДля1СERPИ1СКА2",
       "version": "2.5.17.219",
-      "path": "E:\\Grishin\\Code\\_store\\reference\\АгропромышленныйКомплексМодульДля1СERPИ1СКА2_2.5.17.219",
+      "path": "E:\\Grishin\\Code\\_store\\reference\\config\\АгропромышленныйКомплексМодульДля1СERPИ1СКА2_2.5.17.219",
       "files": 127623,
       "size_mb": 10358.1,
       "config_md5": "5253bfb8c48daf636038cabd085874da",
       "mtime": "2026-10-28 09:40"
     }
   ],
-  "extensions": [
+  "extension_snapshots": [
     {
       "extension": "АРМОбработкаДокументов",
       "version": "1.1.7",
