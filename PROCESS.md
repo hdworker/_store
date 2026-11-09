@@ -111,6 +111,23 @@
 **Монитор для человека:** `python skills\_shared\cc-status.py` — живой дашборд
 (секции «В ПРОЦЕССЕ»/«ЗАВЕРШЁННЫЕ», прогресс по медиане, лог выбранной операции).
 
+## Очередь операций (cc_queue)
+
+Если база занята (Конфигуратор, фоновые задания, параллельные запуски) — запрос кладётся в
+очередь: MCP `queue_submit(script, args, cwd, base, expect_config?, expect_extensions?, priority?)`
+мгновенно возвращает `queue_id`, а исполнение произойдёт автоматически, когда база освободится.
+
+- Запросы: `%LOCALAPPDATA%\cc_queue\<id>` — `request.json`, `state.json`, `out.log`, `exit.code`.
+- Состояния: `pending → waiting-lock → running → done | failed | blocked-version | expired | cancelled`.
+- Воркер: один на машину (`skills\_shared\queue.py worker`, поднимается сам при submit);
+  FIFO внутри базы, параллельно по разным базам; при блокировке — retry с backoff (1→30 мин).
+- Версии: `_store\bases\<ref>.json` (профиль: config, version, extensions). Несовпадение с
+  `expect` → `blocked-version` **без запуска** (код писался под другую версию базы).
+  Профиль заполняется: `queue.py profile -Ref test1 -Config "<Имя>" -Version 2.5.17.219`;
+  нет профиля — проверка версии пропускается.
+- CLI: `queue.py add|status|list|cancel|worker|once|profile`.
+- Видно в мониторе: `cc-status.py` — секция **«⏳ ОЧЕРЕДЬ»** и счётчик в шапке.
+
 ## Инструменты процесса
 
 - `1c-init` — новый проект/расширение: свободная база, `.v8-project.json`, заготовка;
